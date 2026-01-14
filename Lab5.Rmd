@@ -42,14 +42,14 @@ people <- read_csv("people.csv")
 Write code to read in the 'exposure.csv' and save it to an object called `exposure`
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
 Write code to read in the 'healthcare.csv' and save it to an object called `healthcare`
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -57,7 +57,7 @@ Write code to read in the 'healthcare.csv' and save it to an object called `heal
 Which `id` value had the most number of hospitalizations (regardless of diagnosis) as recorded in the `healthcare` table? How many hospitalizations did this person have?
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -69,7 +69,7 @@ Which `id` value had the most number of hospitalizations (regardless of diagnosi
 Use the `inner_join()` function to answer the following question: How many hospitalizations did Males have in this dataset (for any diagnosis)?
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -80,7 +80,7 @@ Use the `inner_join()` function to answer the following question: How many hospi
 How many hospitalizations did people less than the age of 10 have in this dataset (for any diagnosis)?
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -92,7 +92,7 @@ How many hospitalizations did people less than the age of 10 have in this datase
 What is the average level of pollution exposure for people aged less than 6 in this dataset?
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -124,7 +124,7 @@ Which ID has the 5th highest number of hospitalizations?
 
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -154,7 +154,7 @@ Left join the `people` data frame with the `grouphealth` data frame to create a 
 In the `peoplehealth` data frame, how many people have an `NA` value for the `n` column?
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -170,7 +170,7 @@ Replace the `NA` values in `peoplehealth `with zeros and then merge this new  da
 
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -180,7 +180,7 @@ Make a scatterplot of pollution (`pollution`) and number of hospitalizations (`n
 How would you characterize the relationship between these two variables in this scatterplot?
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -195,7 +195,7 @@ Use the `alldata` object to compute the average hospitalizations for each county
 How would you characterize the relationship between pollution and hospitalizations in this plot?
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
@@ -211,7 +211,7 @@ How many people (IDs) never had any hospitalizations? In other words, how many I
 NOTE: It is possible to answer this question without a join function but try using one of the join functions to do so (you will get credit either way).
 
 ```{r}
-## add your code here (make sure to edit the comment)
+## add your code here (make sure to edit this comment)
 
 ```
 
